@@ -81,4 +81,25 @@ flex-wrap: wrap;
     background-color: #f9f9f9; 
     border-radius: 10px; 
     width: 25%;
-}
+} 
+
+/* Project Section */ 
+
+.project { 
+    display: flex; 
+    justify-content: space-around; 
+    gap: 20px; 
+    padding: 50px 20px; 
+     text-align: center; 
+     border-width: 50px; 
+    }
+    .project-list { 
+        background-color: #c1c1c1; 
+        color: #333;
+        border-radius: 3px; 
+        width: 25%; 
+    } 
+    .project-list img { 
+        padding: 25px; 
+        width: 245px;
+    }
