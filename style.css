@@ -81,25 +81,32 @@ flex-wrap: wrap;
     background-color: #f9f9f9; 
     border-radius: 10px; 
     width: 25%;
+}  
+.skill-item i { 
+    padding: 35px;
 } 
+.skills { 
+    background-color: #e4e4e4;
+}
 
 /* Project Section */ 
 
-.project { 
-    display: flex; 
-    justify-content: space-around; 
-    gap: 20px; 
+.projects { 
     padding: 50px 20px; 
-     text-align: center; 
-     border-width: 50px; 
+    text-align: center;
     }
-    .project-list { 
-        background-color: #c1c1c1; 
-        color: #333;
-        border-radius: 3px; 
-        width: 25%; 
+    .projects h2 { 
+        font-size: 2.5rem;
     } 
-    .project-list img { 
-        padding: 25px; 
-        width: 245px;
+    .project-list { 
+        display: flex; 
+        justify-content: space-around; 
+        gap: 20px; 
+        flex-wrap: wrap;
+    } 
+    .project-item { 
+        padding: 20px; 
+        background-color: #f0efef; 
+        border-radius: 10px; 
+        width: 25%;
     }
